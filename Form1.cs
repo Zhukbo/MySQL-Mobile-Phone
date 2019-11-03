@@ -13,7 +13,7 @@ namespace App2
 {
     public partial class Form1 : Form
     {
-        string DB = "server=192.168.110.128; port=3306; database=MobilePhone; user=root; password=12345; charset=utf8";
+        string DB = "server=IP; port=3306; database=MobilePhone; user=root; password=12345; charset=utf8";
         //string selectedState;
         public DataRowCollection Genre_List;
         public Form1()
