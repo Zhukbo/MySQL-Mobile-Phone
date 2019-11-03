@@ -17,7 +17,7 @@ namespace App2
         {
             InitializeComponent();
         }
-        string DB = "server=192.168.110.128; port=3306; database=MobilePhone; user=root; password=12345; charset=utf8";
+        string DB = "server=IP; port=3306; database=MobilePhone; user=root; password=12345; charset=utf8";
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             textBox1.Enabled = false;
